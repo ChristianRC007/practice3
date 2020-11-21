@@ -1,0 +1,26 @@
+.nav {
+  &__list {
+    @extend %list;
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 40px;
+  }
+
+  &__link {
+    padding: 5px 2px;
+
+    font-size: 16px;
+    line-height: 1.19;
+    font-weight: 400;
+    color: #4f5665;
+    text-decoration: none;
+    transition: color 200ms ease-in-out;
+
+    &:hover,
+    &:focus {
+      color: #0b132a;
+    }
+  }
+}

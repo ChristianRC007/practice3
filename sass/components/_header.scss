@@ -1,0 +1,49 @@
+.header > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  padding-top: 45px;
+
+  &__buttons {
+    &--borderless {
+      margin-right: 30px;
+
+      font-size: 16px;
+      line-height: 1.19;
+      font-weight: 500;
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      transition: color 200ms ease-in-out;
+
+      &:hover,
+      &:focus {
+        color: #f53855;
+      }
+    }
+
+    &--bordered {
+      padding: 13px 45px;
+
+      font-size: 16px;
+      line-height: 1.19;
+      font-weight: 500;
+      background-color: transparent;
+      color: #f53855;
+      border: 1px solid #f53855;
+      border-radius: 50px;
+      cursor: pointer;
+
+      transition: color 200ms ease-in-out, background-color 200ms ease-in-out;
+
+      &:hover,
+      &:focus {
+        background-color: #f53855;
+        color: #f6f6f6;
+      }
+    }
+  }
+}
