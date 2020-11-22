@@ -1,0 +1,22 @@
+.network {
+  margin-bottom: 35px;
+  padding-top: 150px;
+
+  text-align: center;
+  background-color: #fefefe;
+
+  &__title {
+    @extend .products__title;
+
+    margin: 0 auto 20px;
+
+    max-width: 385px;
+  }
+
+  &__text {
+    @extend .products__text;
+
+    margin-top: 0;
+    margin-bottom: 100px;
+  }
+}
