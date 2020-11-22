@@ -1,0 +1,89 @@
+.customers {
+  padding-bottom: 100px;
+  &__title {
+    @extend .network__title;
+    margin: 0 auto;
+    max-width: 450px;
+    text-align: center;
+  }
+
+  &__text {
+    @extend .network__text;
+    margin-top: 15px;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+}
+
+.slider {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+
+  &__item {
+    margin: 0 25px;
+    padding: 30px;
+    max-width: 400px;
+    height: 230px;
+
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+  }
+
+  &__thumb {
+    display: flex;
+    align-items: center;
+
+    & > img {
+      display: block;
+      margin-right: 20px;
+      width: 50px;
+      height: 100%;
+
+      border-radius: 50%;
+    }
+  }
+
+  &__author-name {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.67;
+  }
+
+  &__author-location {
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.15;
+    color: #4f5665;
+  }
+
+  &__author-marks {
+    display: flex;
+    align-items: center;
+
+    margin-left: auto;
+
+    & > span {
+      margin-right: 10px;
+
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.87;
+    }
+
+    & > svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+  }
+}
