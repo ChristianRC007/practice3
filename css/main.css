@@ -56,7 +56,7 @@ body {
 }
 
 .header__buttons--borderless:hover, .header__buttons--borderless:focus {
-  color: #f53855;
+  color: #f53838;
 }
 
 .header__buttons--bordered {
@@ -65,8 +65,8 @@ body {
   line-height: 1.19;
   font-weight: 500;
   background-color: transparent;
-  color: #f53855;
-  border: 1px solid #f53855;
+  color: #f53838;
+  border: 1px solid #f53838;
   border-radius: 50px;
   cursor: pointer;
   -webkit-transition: color 200ms ease-in-out, background-color 200ms ease-in-out;
@@ -74,7 +74,7 @@ body {
 }
 
 .header__buttons--bordered:hover, .header__buttons--bordered:focus {
-  background-color: #f53855;
+  background-color: #f53838;
   color: #f6f6f6;
 }
 
@@ -101,5 +101,62 @@ body {
 
 .nav__link:hover, .nav__link:focus {
   color: #0b132a;
+}
+
+.hero {
+  padding-top: 115px;
+  padding-bottom: 100px;
+  background-image: url(../images/section-bg1.png);
+  background-repeat: no-repeat;
+  background-position: top 90px right 322px;
+}
+
+.hero__wrapper {
+  width: 50%;
+}
+
+.hero__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 1.4;
+}
+
+.hero__title--bold {
+  font-weight: 700;
+}
+
+.hero__text {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.hero__text--bold {
+  font-weight: 500;
+}
+
+.hero__button {
+  padding: 17px 77px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.56;
+  color: #fff;
+  background-color: #f53838;
+  -webkit-box-shadow: 0px 35px 54px -6px rgba(245, 56, 56, 0.35);
+          box-shadow: 0px 35px 54px -6px rgba(245, 56, 56, 0.35);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: background-color 250ms ease-in-out;
+  transition: background-color 250ms ease-in-out;
+}
+
+.hero__button:hover {
+  background-color: #cc2f2f;
 }
 /*# sourceMappingURL=main.css.map */
