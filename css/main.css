@@ -464,9 +464,9 @@ body {
 .slider__item {
   margin: 0 25px;
   padding: 30px;
-  max-width: 400px;
+  width: 384px;
   height: 230px;
-  border: 2px solid #dddddd;
+  border: 2px solid #f53838;
   border-radius: 10px;
 }
 
