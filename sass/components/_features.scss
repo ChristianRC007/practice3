@@ -1,0 +1,60 @@
+.features {
+  padding-top: 150px;
+  padding-bottom: 125px;
+
+  background-image: url(../images/section-bg2.png);
+  background-repeat: no-repeat;
+  background-position: top 95px left 415px;
+
+  &__wrapper {
+    width: 38%;
+    margin-left: auto;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 1.43;
+  }
+
+  &__text {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: #4f5665;
+  }
+
+  &__list {
+    @extend %list;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+
+    & > p {
+      margin: 0;
+
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 2.14;
+      color: #4f5665;
+    }
+  }
+
+  &__icon {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+  }
+}

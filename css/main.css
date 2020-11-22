@@ -10,7 +10,7 @@ body {
   background-color: #fff;
 }
 
-.nav__list, .benefits__list {
+.nav__list, .benefits__list, .features__list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -224,5 +224,62 @@ body {
   font-size: 25px;
   line-height: 1.2;
   color: #4f5665;
+}
+
+.features {
+  padding-top: 150px;
+  padding-bottom: 125px;
+  background-image: url(../images/section-bg2.png);
+  background-repeat: no-repeat;
+  background-position: top 95px left 415px;
+}
+
+.features__wrapper {
+  width: 38%;
+  margin-left: auto;
+}
+
+.features__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.43;
+}
+
+.features__text {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #4f5665;
+}
+
+.features__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.features__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.features__item > p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #4f5665;
+}
+
+.features__icon {
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
 }
 /*# sourceMappingURL=main.css.map */
