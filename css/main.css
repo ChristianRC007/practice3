@@ -438,7 +438,7 @@ body {
 }
 
 .customers {
-  padding-bottom: 100px;
+  padding-bottom: 290px;
 }
 
 .customers__title {
@@ -454,6 +454,7 @@ body {
 }
 
 .slider {
+  position: relative;
   max-width: 1300px;
   margin: 0 auto;
   display: -webkit-box;
@@ -528,5 +529,87 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
+}
+
+.slider__button--left {
+  position: absolute;
+  bottom: -120px;
+  right: 240px;
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+
+.slider__button--left:hover, .slider__button--left:focus {
+  background-color: #f53838;
+}
+
+.slider__button--left:hover > svg, .slider__button--left:focus > svg {
+  fill: #fff;
+}
+
+.slider__button--left > svg {
+  width: 30px;
+  height: 30px;
+  fill: #f53838;
+  -webkit-transition: fill 200ms ease-in-out;
+  transition: fill 200ms ease-in-out;
+}
+
+.slider__button--right {
+  position: absolute;
+  bottom: -120px;
+  right: 160px;
+  z-index: 20;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: transparent;
+  border: 2px solid #f53838;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: background-color 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
+}
+
+.slider__button--right:hover, .slider__button--right:focus {
+  background-color: #f53838;
+}
+
+.slider__button--right:hover > svg, .slider__button--right:focus > svg {
+  fill: #fff;
+}
+
+.slider__button--right > svg {
+  width: 30px;
+  height: 30px;
+  fill: #f53838;
+  -webkit-transition: fill 200ms ease-in-out;
+  transition: fill 200ms ease-in-out;
 }
 /*# sourceMappingURL=main.css.map */
