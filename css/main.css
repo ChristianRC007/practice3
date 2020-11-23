@@ -139,7 +139,7 @@ body {
   font-weight: 500;
 }
 
-.hero__button {
+.hero__button, .subscribe__button {
   padding: 17px 77px;
   font-family: inherit;
   font-weight: 700;
@@ -156,7 +156,7 @@ body {
   transition: background-color 250ms ease-in-out;
 }
 
-.hero__button:hover {
+.hero__button:hover, .subscribe__button:hover {
   background-color: #cc2f2f;
 }
 
@@ -611,5 +611,55 @@ body {
   fill: #f53838;
   -webkit-transition: fill 200ms ease-in-out;
   transition: fill 200ms ease-in-out;
+}
+
+.subscribe {
+  position: absolute;
+  top: -70%;
+  left: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1140px;
+  padding: 59px 70px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 48px 68px -94px #0d1025, 0px -30px 68px -94px #0d1025;
+          box-shadow: 0px 48px 68px -94px #0d1025, 0px -30px 68px -94px #0d1025;
+}
+
+.subscribe__text {
+  max-width: 370px;
+}
+
+.subscribe__text--top {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 1.29;
+}
+
+.subscribe__text--bottom {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #4f5665;
+}
+
+.subscribe__button {
+  display: block;
+}
+
+.footer {
+  position: relative;
+  padding-top: 180px;
+  background-color: #f3f3f4;
 }
 /*# sourceMappingURL=main.css.map */
